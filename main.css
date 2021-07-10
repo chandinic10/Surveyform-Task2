@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+.bg-image{
+  background-image: url("img1/cv.jpg");
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content{
+  opacity: 60;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-bottom: 100px;
+}
+.container{
+  width: 60%;
+  margin: 100px auto 100px auto;
+}
+::-webkit-input-placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+::-moz-placeholder {
+  color:black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+:-ms-input-placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+::placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+.heading{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 42px;
+  color: #0A043C;
+}
+.sub-heading{
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #0A043C;
+  text-decoration: underline;
+  position: absolute;
+  top:100px;
+  left: 500px;
+}
+input{
+  font-family: 'Playfair Display', serif;
+  padding: 12px;
+  border: 0px solid white;
+  border-radius: 4px;
+  resize: vertical;
+  width: 350px;
+  position: relative;
+}
+select{
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  resize: vertical;
+  width: 375px;
+  position: relative;
+}
+label{
+  font-family: 'Playfair Display', serif;
+  color: black;
+  font-size: 16px;
+  border-radius: 4px;
+  position: relative;
+}
+.date{
+  left: 70px;
+  top:0px;
+}
+.value{
+  width: 270px;
+  left: 80px;
+  top: -2px;
+}
+.gender{
+  top: 40px;
+}
+.state{
+  top:20px;
+}
+.zip{
+  left: 75px;
+  top: 20px;
+}
+.study{
+  top: 90px;
+  left:-380px;
+}
+.qualify{
+  top:90px;
+}
+.job{
+  top: 130px;
+  left:-380px;
+}
+.employ{
+  top: 130px;
+}
+.q1{
+  top: 170px;
+  left: -380px;
+}
+.disease{
+  display:block;
+  top: 180px;
+}
+.q2{
+  top:190px;
+}
+
+.la2{
+  display: block;
+  vertical-align: middle;
+  top: 200px;
+  left: 0px;
+}
+input[type=checkbox], input[type=radio]{
+  vertical-align:middle;
+  width: 50px;
+}
+.q3{
+  top: 210px;
+}
+.la1{
+  display: block;
+  vertical-align: middle;
+  top: 220px;
+  left:0px;
+}
+.q4{
+  top: 240px;
+}
+.la3{
+  display: block;
+  vertical-align: middle;
+  top: 250px;
+}
+.q5{
+  top:260px;
+}
+.la4{
+  display: block;
+  vertical-align: middle;
+  top: 270px;
+}
+.q6{
+  top:280px;
+}
+.la5{
+  display: block;
+  vertical-align: middle;
+  top:290px;
+}
+.q8{
+  top:300px;
+}
+.la6{
+  display:block;
+  vertical-align: middle;
+  top:310px;
+}
+textarea{
+  border-radius: 4px;
+  padding: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0A043C;
+  width: 500px;
+  height: 150px;
+  position: relative;
+  top: 330px;
+}
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 28px;
+  background: #0A043C;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 450px;
+  left:-80px;
+}
+
+.btn:hover {
+  background:#123596;
+  text-decoration: none;
+}
